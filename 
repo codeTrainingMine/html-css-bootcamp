@@ -1,0 +1,23 @@
+[33mcommit f5c2fae278eec1079f4801be1865507ac0b5d6d2[m
+Author: codeTrainingMine <enhilex.linux@gmail.com>
+Date:   Thu Jan 12 18:30:56 2017 +1100
+
+    removes test folder
+
+[33mcommit 178afdf480095b89b611035771a6cbe7c11b61b3[m
+Author: codeTrainingMine <enhilex.linux@gmail.com>
+Date:   Thu Jan 12 18:23:12 2017 +1100
+
+    adds test folder
+
+[33mcommit d2a50443c79baed02ca89fa3ae5ad2a7fa68926a[m
+Author: codeTrainingMine <enhilex.linux@gmail.com>
+Date:   Thu Jan 12 18:15:50 2017 +1100
+
+    adds a test text file
+
+[33mcommit d210ddffc2ad83c17c03011d3d4cc571c2108405[m
+Author: codeTrainingMine <enhilex.linux@gmail.com>
+Date:   Wed Jan 11 17:56:07 2017 +1100
+
+    adds .gitignore file
