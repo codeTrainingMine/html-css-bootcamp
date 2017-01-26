@@ -1,0 +1,13 @@
+p {
+    width: 200px;
+}
+
+p::first-letter {
+    font-size: 35px;
+    color: red;
+}
+
+p::first-line {
+    font-size:20px;
+    color:red;
+}
