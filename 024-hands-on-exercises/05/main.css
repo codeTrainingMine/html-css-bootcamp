@@ -1,0 +1,23 @@
+.green {
+    color: green;
+}
+/*= 10*/
+
+
+[target] {
+    color: black;
+}
+/*= 10
+because this comes second, it will override
+*/
+
+/*
+css - 
+rulesets
+a ruleset
+has selector or selectors
+then declaration block
+has declarations
+which are made up of pairs of property/value
+
+*/
