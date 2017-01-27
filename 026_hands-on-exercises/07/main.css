@@ -1,0 +1,10 @@
+a {
+    font-size: 3rem;
+    font-family: serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}

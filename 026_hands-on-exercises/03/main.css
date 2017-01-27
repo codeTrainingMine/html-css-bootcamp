@@ -1,0 +1,19 @@
+p {
+    font-size: 3rem;
+}
+
+.one {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.two {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+}
+
+.three {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-style: italic;
+}

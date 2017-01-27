@@ -1,0 +1,8 @@
+p {
+    font-size: 3rem;
+    font-family: serif;
+}
+
+.del {
+    text-decoration: line-through;
+}
