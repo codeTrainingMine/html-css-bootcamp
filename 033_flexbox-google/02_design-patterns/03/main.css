@@ -1,0 +1,41 @@
+html, body, div {
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /*height: 300px;*/
+    margin: 0 auto;
+}
+
+div {
+    width: 100%;
+    min-height: 150px;
+}
+
+/*.c1, .c2 {
+    height: 150px;
+}
+
+.c3, .c4 {
+    height: 50%;
+}*/
+
+
+.c1 {
+    background-color: green;
+}
+
+.c2 {
+    background-color: orange;
+}
+
+.c3 {
+    background-color: yellow;
+}
+
+.c4 {
+    background-color: blue;
+}

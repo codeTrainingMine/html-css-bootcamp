@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: 5px solid red;
+    height: 800px;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgrey;
+    text-align:  center;
+}

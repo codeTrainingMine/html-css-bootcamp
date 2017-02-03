@@ -1,0 +1,15 @@
+body {
+    border: 1px solid black;
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 10px;
+}

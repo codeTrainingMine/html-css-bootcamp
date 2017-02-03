@@ -1,0 +1,54 @@
+body, html, div {
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%
+}
+
+div {
+    min-height: 450px;
+    width: 100%;
+    background-size: cover;
+}
+
+im {
+    width: 10px;
+}
+
+.c1 {
+    background-color: blue;
+    background-image: url("../../../000_img/pup1.jpg");    
+}    
+
+.c2 {
+    background-color: red;
+    background-image: url("../../../000_img/pup2.jpg");
+}
+
+.c3 {
+    background-color: green;
+    background-image: url("../../../000_img/pup3.jpg");
+}
+
+.c4 {
+    background-color: gray;
+    background-image: url("../../../000_img/pup4.jpg");
+}
+
+.c5 {
+    background-color: purple;
+    background-image: url("../../../000_img/pup5.jpg");
+}
+
+.c6 {
+    background-color: pink;
+    background-image: url("../../../000_img/pup6.jpg");
+}
+
+.c7 {
+    background-color: orange;
+    background-image: url("../../../000_img/pup7.jpg");
+}

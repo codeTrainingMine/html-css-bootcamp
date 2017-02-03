@@ -1,0 +1,27 @@
+body {
+    border: 1px solid black;
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+div {
+    width: 100px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 10px;
+}
+
+/*#one {
+    height: 100px;
+}
+
+#two {
+    height: 200px;
+}
+
+#three {
+    height: 300px;
+}*/
