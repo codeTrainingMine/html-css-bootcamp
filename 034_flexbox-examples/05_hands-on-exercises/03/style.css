@@ -1,0 +1,23 @@
+body {
+    padding: 2em;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    border: 1px solid red;
+}
+
+main {
+    border: 1px solid red;
+}
+
+section {
+    padding: 1rem;
+}
+
+li {
+    padding: 0.7rem;
+}

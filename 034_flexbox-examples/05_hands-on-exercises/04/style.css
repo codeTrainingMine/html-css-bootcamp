@@ -1,0 +1,19 @@
+header {
+    background-color: red;
+}
+
+article {
+    background-color: blue;
+}
+
+.a1 {
+    background-color: yellow;
+}
+
+.a2 {
+    background-color: pink;
+}
+
+footer {
+    background-color: green;
+}

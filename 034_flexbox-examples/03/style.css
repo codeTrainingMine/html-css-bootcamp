@@ -1,0 +1,25 @@
+header, article, aside, footer {
+    border: 1px solid red;
+}
+
+header {
+    background-color: green;
+}
+
+article {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+}
+
+.a1 {
+    background-color: orange;
+}
+
+.a2 {
+    background-color: yellow;
+}
