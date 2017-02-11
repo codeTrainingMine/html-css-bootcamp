@@ -1,0 +1,7 @@
+body {
+    border: 1px solid hotpink;
+    background-image: url("../../../000_img/01.png");
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-position: 800px 50px;
+}
