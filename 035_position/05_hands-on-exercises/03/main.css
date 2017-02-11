@@ -1,0 +1,19 @@
+div {
+    border: 2px solid red;
+}
+
+.d1 {
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.d2 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}

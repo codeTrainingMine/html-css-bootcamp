@@ -1,0 +1,42 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 5px;
+    /*width: 100px;*/
+    /*display: inline-block;*/
+    /*display: block-inline;*/
+}
+
+.d1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.d2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.d3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.d4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /*clear: both;*/
+    
+}

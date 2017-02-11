@@ -1,0 +1,23 @@
+html, body, nav, main {
+    border: 0;
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;    
+}
+
+nav {
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+}
+
+main {
+    float: right;
+    width: 80%;
+    border: 1px solid black;
+}

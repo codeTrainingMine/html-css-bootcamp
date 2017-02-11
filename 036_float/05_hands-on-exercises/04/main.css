@@ -1,0 +1,12 @@
+img {
+    float: left;
+}
+
+div {
+    border: 1px solid black;
+    /*overflow: auto;*/
+}
+
+#d1 {
+    clear: both;
+}

@@ -1,0 +1,22 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: orange;
+    border: 3px solid red;
+    min-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#one {
+    margin-bottom: 70px;
+}

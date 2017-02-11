@@ -1,0 +1,30 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid pink;
+    position: relative;
+}
+
+div {
+    height: 100%;
+}
+
+.d1 {
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.d2 {
+    border: 2px solid black;
+    margin-left: 150px;
+}
