@@ -1,0 +1,38 @@
+html, body, svg {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*align-items: center;*/
+    align-content: center;
+}
+
+svg {
+    height: 28rem;
+    width: 28rem;
+    stroke: red;
+    fill: none;
+}
+
+.c1 {
+    stroke-width: 0.2;
+}
+
+.c2 {
+    stroke-width: 0.4;
+}
+
+.c3 {
+    stroke-width: 0.6;
+}
+
+.c4 {
+    stroke-width: 1;
+}

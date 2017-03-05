@@ -1,0 +1,32 @@
+fieldset {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+legend {
+    font-size: 2rem;
+}
+
+.c0 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.c1 {
+    width: 8rem;
+    height: 8rem;
+    fill: red;
+}
+
+.c2 {
+    width: 12rem;
+    height: 12rem;
+    fill: blue;
+    stroke: black;
+}
+
+svg:hover {
+    fill: yellow;
+    stroke: purple;
+    stroke-width: 2px;
+}
