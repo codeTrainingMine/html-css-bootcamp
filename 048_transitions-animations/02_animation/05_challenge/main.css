@@ -1,0 +1,54 @@
+/*
+animation-name: none
+animation-duration: 0s
+animation-timing-function: ease
+animation-delay: 0s
+animation-iteration-count: 1
+animation-direction: normal
+animation-fill-mode: none
+animation-play-state: running
+*/
+
+html {
+    font-size: 4vw;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+body {
+    color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+}
+
+.circle {
+    font-size: 8rem;
+}
+
+body {
+    animation-name: move-across-screen;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes move-across-screen {
+    /*0% { justify-content: flex-start }*/
+    /*100% { justify-content: flex-end }*/
+    0% { left: 0; }
+    /*50% { left: 30% }*/
+    100% { left: 66% }
+    /*100% { right: 100% }*/
+}

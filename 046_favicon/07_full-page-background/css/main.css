@@ -4,54 +4,48 @@ html {
 }
 
 header {
-    height: 2.8rem;
-    background-color: rgba(0,0,0,0.6);
-    /*border: 1px solid hotpink;*/
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 2.8rem;
     display: flex;
-    flex-flow: row nowrap;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    /* formatting */
+    background-color: rgba(0,0,0,.6);
 }
 
-header nav {
-    justify-content: space-between;
-}
-
-header div:hover
-{
-    color:green;
-    fill: green;
-}
-
-.header-items {
-    width: 13rem;
+header div, header nav {
+    width: 100%;
     height: 80%;
-    /*background-color: red;*/
-    border-radius: 3px;
-    margin: 0 1rem;
     display: flex;
-    flex-flow: row nowrap;
     align-items: center;
 }
 
-svg {
-    height: 100%;
-    width: 3rem;
-    fill: white;
-}
-
-svg:hover {
-    fill: inherit;
-}
-
-#svg-resources {
+header nav, header nav a, header svg {
     display: none;
 }
 
-.icons {
-    /*border: 1px solid hotpink;*/
+header a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header a:hover {
+    color: #9dbb88;
+}
+
+header div a h1 {
+    font-size: 1rem;
+    margin-left: .5rem;
 }
 
 #idx-atf {
@@ -72,7 +66,7 @@ svg:hover {
 }
 
 #idx-atf > div {
-    height: 90vh;
+    height: 85vh;
 }
 
 .idx-center-spacebetween {
@@ -80,6 +74,7 @@ svg:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.5rem;
 }
 
 .idx-center-center {
@@ -89,25 +84,25 @@ svg:hover {
     align-items: center;
 }
 
-h1 {
+#idx-atf h1 {
     font-size: 2rem;
     text-align: center;
 }
 
-h2 {
+#idx-atf h2 {
     font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
 }
 
-h3 {
+#idx-atf h3 {
     font-size: 1.4rem;
     text-align: center;
     margin-top: .8rem;
     line-height: 1.2;
 }
 
-button {
+#idx-atf button {
     color: rgb(202, 250, 234);
     font-size: 1.4rem;
     font-weight: 700;
@@ -115,3 +110,42 @@ button {
     padding: .7rem 1.2rem;
     border-radius: 3px;
 }
+
+#idx-mobile-menu {
+    display: flex;
+    flex-flow: column;
+    background-color: deepskyblue;
+    font-size: 1.7rem;
+}
+
+li {
+    width: 100%;
+    height: 3.1rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li a {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    /*border-bottom: 0.2px solid gray;*/
+    display: flex;
+    align-items: center;
+}
+
+.idx-menu-svg {
+    height: 120%;
+    width: 50px;
+    fill: currentcolor;
+    margin-left: 3rem;
+    margin-right: 1.6rem;
+}
+
+#idx-mobile-menu a:hover {
+    background-color:royalblue;
+}
+
+
+/*deepskyblue*/
+/*royalblue*/

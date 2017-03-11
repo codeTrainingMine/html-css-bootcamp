@@ -1,0 +1,43 @@
+html {
+    font-szie: 4vw;
+}
+
+/** {*/
+    /*border: 1px solid hotpink;*/
+/*}*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentcolor;
+}
+
+.circle {
+    font-size: 16rem;
+}
+
+body {
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes change-color {
+    0% { color: red; }
+    100% { color: gold; }
+}

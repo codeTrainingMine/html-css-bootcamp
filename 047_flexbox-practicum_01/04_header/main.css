@@ -1,0 +1,82 @@
+html, body, header, nav, section, div, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: currentcolor;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+header
+{
+    height: 5vh;
+    background-color: #5b5b5b;
+    color: white;
+    /*border: 1px solid hotpink;*/
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#left-menu, #right-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    /*border: 1px solid blue;*/
+}
+
+#left-menu {
+    width: 34rem;
+}
+
+#right-menu {
+    width: 8rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2.5rem;
+    /*height: 100%;*/
+    /*border: 1px solid red;*/
+}
+
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.inbox-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    fill: white;
+}
+
+section {
+    height: 95vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: gray;
+    /*border: 1px solid hotpink;*/
+}
+
+.inbox-main {
+    fill: hotpink;
+    height: 15rem;
+    width: 15rem;
+}
