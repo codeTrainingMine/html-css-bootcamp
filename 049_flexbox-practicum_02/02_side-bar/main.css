@@ -1,0 +1,49 @@
+html, body, nav, div, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    /*border: 1px solid hotpink;*/
+    border-right: 1px solid gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+#top-buttons, #bottom-buttons {
+    display: flex;
+    flex-flow: column;
+
+}
+
+#top-buttons {
+    margin-top: 3.3rem;
+}
+
+#bottom-buttons {
+    margin-bottom: 3.3rem;
+}
+
+button {
+    /*border: 1px solid hotpink;*/
+    text-align: left;
+    padding-left: 3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.6rem;
+    color: darkturquoise;
+}
+
+button:hover {
+    background-color: rgba(84, 121, 0, 0.1);
+}

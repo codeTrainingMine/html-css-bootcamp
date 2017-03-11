@@ -1,0 +1,95 @@
+body, html, main, footer, div, p, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.4rem;
+    font-weight: 800;
+    text-align: center;
+    color: #547980;
+}
+
+footer {
+    height: 9rem;
+    /*border: 1px solid hotpink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+section {
+    width: 95%;
+    height: 100%;
+    /*border: 1px solid hotpink;*/
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-status, right-buttons {
+    display: flex;
+}
+
+#left-status {
+    margin-left: 4.5rem;
+    /*border: 1px solid hotpink;*/
+}
+
+#spinner-svg {
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: gray;
+    animation-name: spin-animation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    /*animation-direction: alternate;*/
+    /*border: 1px solid hotpink;*/
+}
+
+@keyframes spin-animation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#saving-label {
+    color: gray;
+    padding-left: 0.7rem;
+}
+
+#right-buttons {
+    margin-right: 5rem;
+}
+
+button {
+    font-size: 3rem;
+    /*border: 1px solid hotpink;*/
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-radius: 3px;
+}
+
+#reset-button {
+    color: darkturquoise;
+}
+
+#save-button {
+    color: white;
+    background-color: darkturquoise;
+}
+
+div {
+    /*border: 1px solid hotpink;*/
+}

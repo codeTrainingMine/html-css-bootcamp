@@ -1,0 +1,29 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px solid #D7DBDD;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 0 2px 1px rgba(0,0,0,.05), 0 2px 3px rgba(0,0,0,.05), 0 4px 8px rgba(0,0,0,.05);
+    color: #BCD2DA;
+}
+
+svg {
+    fill: #BCD2DA;
+}

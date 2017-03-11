@@ -1,0 +1,67 @@
+html, body, main, section, div, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 37rem;
+    width: 73%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(188, 210, 218);
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: rgb(134, 150, 156);
+}
+
+#container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid hotpink;*/
+}
+
+#calendar-sec, #dashboard-sec, #email-sec {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+#dashboard-sec {
+    border-top: 1px solid rgb(188, 210, 218);
+    border-bottom: 1px solid rgb(188, 210, 218);
+}
+
+p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /*border: 1px solid pink;*/
+}
+
+svg {
+    width: 8rem;
+    fill: rgb(188, 210, 218);
+    /*border: 1px solid hotpink;*/
+}
