@@ -51,7 +51,7 @@ Three or more asterisks make a horizontal line.
 **This would be in bold**
 ```
 
-** This is bold**
+**This is bold**
 
 ***
 
