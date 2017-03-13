@@ -65,3 +65,17 @@ Three or more asterisks make a horizontal line.
 ***
 
 ## Lists
+
+```
+1. first item
+1. second item
+1. third item
+```
+
+1. first item
+1. second item
+1. third item
+
+***
+
+## Code block
