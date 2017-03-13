@@ -56,3 +56,12 @@ Three or more asterisks make a horizontal line.
 ***
 
 ## Links
+
+```
+[go to google](https://www.google.com)
+```
+[go to google](https://www.google.com)
+
+***
+
+## Lists
