@@ -46,3 +46,13 @@ Three or more asterisks make a horizontal line.
 ***
 
 ## Bold
+
+```
+**This would be in bold**
+```
+
+** This is bold**
+
+***
+
+## Links
