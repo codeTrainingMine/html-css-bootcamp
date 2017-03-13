@@ -11,3 +11,22 @@ Markdown is often used to format readme files, for writing messages in online di
 Three or more asterisks make a horizontal line.
 
 ```
+***
+```
+
+***
+
+## Headers
+
+```
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+
+***
+
+## Italics
