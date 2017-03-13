@@ -30,3 +30,12 @@ Three or more asterisks make a horizontal line.
 ***
 
 ## Italics
+
+```
+*This would be in italics*
+```
+*This is in italics*
+
+***
+
+## Bold
