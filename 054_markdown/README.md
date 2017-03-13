@@ -9,3 +9,5 @@ Markdown is often used to format readme files, for writing messages in online di
 ## Horizontal line
 
 Three or more asterisks make a horizontal line.
+
+```
