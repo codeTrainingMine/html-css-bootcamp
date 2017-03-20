@@ -1,0 +1,21 @@
+nav {
+    margin: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 61rem;
+}
+
+.img-container {
+    background-size: cover;
+    background-image: url("../images/fam_blur.jpg");
+}
+
+#explain-img {
+    display: unset;
+    margin-top: 0.5rem;
+}
+
+.about-container {
+    background-image: url("../images/us_left_web_30.jpg");
+}
