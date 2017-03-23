@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mq-480-plus.css" media="(min-width:480px)">
+    <link rel="stylesheet" href="css/mq-580-plus.css" media="(min-width:580px)">
+    <link rel="stylesheet" href="css/mq-820-plus.css" media="(min-width:820px)">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png?v=bOvrQkLbRj">
+    <link rel="icon" type="image/png" href="fav/favicon-32x32.png?v=bOvrQkLbRj" sizes="32x32">
+    <link rel="icon" type="image/png" href="fav/favicon-16x16.png?v=bOvrQkLbRj" sizes="16x16">
+    <link rel="manifest" href="fav/manifest.json?v=bOvrQkLbRj">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg?v=bOvrQkLbRj" color="#5bbad5">
+    <link rel="shortcut icon" href="fav/favicon.ico?v=bOvrQkLbRj">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav>
+        <a id="left-nav" href="#">#greatercommons</a>
+        <div id="right-nav">
+            <p>Have an account?</p>
+            <a href="#">Sign In</a>
+        </div>
+    </nav>
+
+    <main>
+        <a href="#">Great Classes<br>Start Here</a>
+    </main>
+
+    <footer id="thefooter">
+        <p id="para">"GreaterCommons lets you collect, share, and discover class materials. GreaterCommons will help you find great teaching materials including videos, articles, pictures, handouts, presentations and more."</p>
+        <a id="footer-btn" href="#">MAKE MY CLASSES GREAT</a>
+        <div id="footer-nav-group">
+            <a id="button-create" class="footer-nav" href="#">create</a>
+            <a id="button-become" class="footer-nav" href="#">become</a>
+            <a id="button-find" class="footer-nav" href="#">find</a>
+        </div>
+    </footer>
+
+    <script>
+        var para = document.querySelector("#para");
+
+//        var footer = document.querySelector("#thefooter");
+//        footer.addEventListener('mouseover', function(){
+//            para.innerText = 'bbb';
+//        })
+
+
+        var btncreate = document.querySelector("#button-create");
+        btncreate.addEventListener('mouseover', function(){
+            para.style.width = '58rem';
+            para.innerText = '"Create a collection of resources. PowerPoint presentations, handouts, links to online resources such as videos, articles, and useful websites - GreaterCommons lets you easily collect, organize, and share course materials."';
+        })
+        btncreate.addEventListener('mouseout', function(){
+            para.style.width = '50rem';
+            para.innerText = '"GreaterCommons lets you collect, share, and discover class materials. GreaterCommons will help you find great teaching materials including videos, articles, pictures, handouts, presentations and more."';
+        })
+
+        var btnbecome = document.querySelector("#button-become");
+        btnbecome.addEventListener('mouseover', function(){
+            para.style.width = '65rem';
+            para.innerText = '"Become a center of influence. Allow others to discover your resources then copy them into their collections. You will be able to see how many classes and students have benefited from your resources - you will be influencing the quality of classes around the world."';
+        })
+        btnbecome.addEventListener('mouseout', function(){
+            para.style.width = '50rem';
+            para.innerText = '"GreaterCommons lets you collect, share, and discover class materials. GreaterCommons will help you find great teaching materials including videos, articles, pictures, handouts, presentations and more."';
+        })
+
+        var btnfind = document.querySelector("#button-find");
+        btnfind.addEventListener('mouseover', function(){
+            para.style.width = '65rem';
+            para.innerText = '"Find great resources. GreaterCommons is a central repository of course resources. Find the resources that have been used the most, and rated the highest, then copy those resources into your collection and use them in your classes."';
+        })
+        btnfind.addEventListener('mouseout', function(){
+            para.style.width = '50rem';
+            para.innerText = '"GreaterCommons lets you collect, share, and discover class materials. GreaterCommons will help you find great teaching materials including videos, articles, pictures, handouts, presentations and more."';
+        })
+
+
+    </script>
+
+</body>
+</html>

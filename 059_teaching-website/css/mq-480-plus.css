@@ -1,0 +1,39 @@
+nav {
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer {
+    height: 22rem;
+}
+
+footer p {
+    margin-top: 0;
+}
+
+#footer-nav-group {
+    display: flex;
+}
+
+.footer-nav {
+    color: rgb(211, 211, 211);
+    font-size: 1.6rem;
+    font-weight: 300;
+    /*border: 1px solid red;*/
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    border-radius: 5px;
+}
+
+.footer-nav:hover {
+    background-color: rgba(255,255,255,0.2);
+}
