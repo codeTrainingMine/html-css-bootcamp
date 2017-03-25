@@ -1,0 +1,35 @@
+header {
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    height: 5.5rem;
+}
+
+#logo {
+    margin-top: 0.3rem;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+nav a {
+    font-family: Roboto, sans-serif;
+    color: rgb(85, 26, 139);
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #0266C8;
+    background-color: #ffffe0;
+}
